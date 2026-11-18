@@ -1449,3 +1449,7 @@ h1, h2, .statement p { font-family: "Cafe24 Ssurround", var(--font-display); fon
 .dash__shots img { width: 100%; height: 100%; object-fit: cover; }
 .dash__shots figcaption { margin-top: .75rem; font-size: var(--fs-small); font-weight: 600; color: var(--ink-2); line-height: 1.5; }
 @media (max-width: 479px) { .dash__shots { grid-template-columns: 1fr; gap: 1.5rem; } }
+
+/* 히어로 소개글: 마지막 줄에 두세 글자만 남지 않게 */
+.hero__lead { text-wrap: balance; }
+.hero__lead .nw { white-space: nowrap; }
